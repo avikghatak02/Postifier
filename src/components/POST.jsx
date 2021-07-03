@@ -77,6 +77,7 @@ export const POST = ({ url, setURL, makeReq }) => {
       <div className="responseCont">
         <p>Response</p>
         <div className="response">
+          <p>Status Code : {resCode}</p>
           <p> {data}</p>
         </div>
       </div>
