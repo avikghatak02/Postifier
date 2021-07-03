@@ -1,0 +1,35 @@
+.mainItemP {
+  width: 100%;
+}
+
+.midItemP {
+  width: 100%;
+}
+
+.itemP {
+  margin-top: 20px;
+  width: 100%;
+  text-align: start;
+}
+
+.keyP {
+  width: 30%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: #ffe0d4;
+  min-width: 130px;
+}
+
+.valueP {
+  margin-left: 20px;
+  width: 30%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: #ffe0d4;
+  min-width: 130px;
+}
+/*# sourceMappingURL=ParameterItem.css.map */

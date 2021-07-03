@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap");
+.paramCont {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 20px;
+}
+
+.paramCont p {
+  font-size: 24px;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.keyVal {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.keyVal button {
+  width: 100px;
+  height: 45px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: 2px solid orange;
+  outline: none;
+}
+
+.key {
+  width: 30%;
+  height: 45px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: #ffe0d4;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 0px 20px;
+  min-width: 130px;
+}
+
+.value {
+  width: 30%;
+  height: 45px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: #ffe0d4;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  padding: 0px 20px;
+  min-width: 130px;
+}
+
+.add {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.plus {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.Req {
+  width: 70px;
+  margin-left: 5px;
+  border-radius: 8px;
+  border: 2px solid orange;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@media (max-width: 990px) {
+  .head p {
+    font-size: 40px !important;
+  }
+  .plus {
+    margin-top: 0px;
+    margin-left: 0px !important;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 712px) {
+  .plus {
+    margin-top: 20px !important;
+  }
+  .head {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 651px) {
+  .head p {
+    font-size: 30px !important;
+  }
+  .textarea {
+    width: 100% !important;
+  }
+  .typeInput {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .typeInput .mainInput {
+    margin-left: 0;
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+  }
+  .typeInput .Req {
+    width: 100px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid orange;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 0 !important;
+  }
+  .response {
+    width: 100% !important;
+  }
+  .plus {
+    margin-top: 20px;
+    margin-left: 0px !important;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 476px) {
+  .head p {
+    font-size: 22px !important;
+    margin-left: 15px !important;
+  }
+  svg {
+    width: 50px !important;
+  }
+  .add {
+    margin-top: 20px;
+    margin-left: 0px !important;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .plus {
+    margin-left: 10px !important;
+  }
+  .paramCont p {
+    font-size: 20px;
+  }
+  .textCont p {
+    font-size: 20px !important;
+  }
+  .responseCont p {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .key {
+    width: 100px;
+    min-width: 100px;
+  }
+  .value {
+    width: 100px;
+    min-width: 100px;
+  }
+}
+/*# sourceMappingURL=Parameter.css.map */

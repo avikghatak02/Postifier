@@ -1,0 +1,104 @@
+.postContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.textCont {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.textCont p {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.textCont textarea {
+  margin-top: 10px;
+  width: 90%;
+  height: 100px;
+  background-color: #ffe0d4;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.responseCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.responseCont p {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  width: 90%;
+  text-align: start;
+}
+
+.responseCont .response {
+  width: 90%;
+  padding: 10px;
+  background-color: #ffe0d4;
+  border-radius: 8px;
+  height: 110px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.responseCont .response p {
+  width: 90%;
+  font-size: 13px !important;
+  overflow-wrap: break-word;
+  white-space: wrap;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5d8a6), to(#ff9100));
+  background: linear-gradient(#f5d8a6, #ff9100);
+  border-radius: 20px;
+  border: 1px solid #976565;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff9100;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=POST.css.map */
