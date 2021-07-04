@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Style/ParameterItem.css";
-export const ParamItem = ({ id, url, setUrl }) => {
+export const ParamItem = ({ id, url, setURL }) => {
   const [key, setKey] = useState("");
   const [value, setValue] = useState("");
   let str = url.includes("&") ? url.split("&") : [url];
@@ -37,15 +37,15 @@ export const ParamItem = ({ id, url, setUrl }) => {
     if (!key && !value) {
       let mainStr = str1 + str2;
       mainStr = mainStr.slice(0, -1);
-      setUrl(mainStr);
+      setURL(mainStr);
     } else if (!value && key) {
       let mainStr = str1 + key + "&" + str2;
       mainStr = mainStr.slice(0, -1);
-      setUrl(mainStr);
+      setURL(mainStr);
     } else {
       let mainStr = str1 + key + "=" + value + "&" + str2;
       mainStr = mainStr.slice(0, -1);
-      setUrl(mainStr);
+      setURL(mainStr);
     }
   };
 
